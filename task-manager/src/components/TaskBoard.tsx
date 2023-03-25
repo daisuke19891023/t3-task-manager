@@ -3,6 +3,7 @@ import TaskCard from './TaskCard';
 import CategoryLabel from './CategoryLabel';
 import type { Category } from '../types/Category';
 import type { Task } from '../types/Task';
+import type { TaskStatus } from '../types/TaskStatus';
 import AddCategoryButton from './AddCategoryButton';
 import CreateTaskModal from './CreateTaskModal';
 
