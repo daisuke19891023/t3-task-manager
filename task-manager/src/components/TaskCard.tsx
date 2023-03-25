@@ -1,11 +1,12 @@
 import React from 'react';
-
+import type { Category } from '../types/Category';
 interface TaskCardProps {
   title: string;
   description: string;
   categoryColor: string;
   dueDate: Date;
-    status: string;
+status: string;
+category: Category | undefined;
 }
 
 const TaskCard: React.FC<TaskCardProps> = ({ title, description, categoryColor, dueDate, status }) => {
